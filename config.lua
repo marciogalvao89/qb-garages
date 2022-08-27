@@ -190,6 +190,30 @@ Garages = {
         vehicle = 'car',              --car, air, sea
         job = "ballas"
     },
+    ["vagos"] = {
+        label = "Los Santos Vagos",
+        takeVehicle = vector3(333.83, -2020.49, 21.87),
+        spawnPoint = vector4(322.82, -2029.8, 20.81, 52.47),
+        putVehicle = vector3(332.36, -2037.78, 21.04),
+        showBlip = false,
+        blipName = "Los Santos Vagos",
+        blipNumber = 357,
+        type = 'gang',                --public, job, gang, depot
+        vehicle = 'car',              --car, air, sea
+        job = "vagos"
+    },
+    ["triads"] = {
+        label = "18th Street Gang",
+        takeVehicle = vector3(1438.43, -1495.14, 63.22),
+        spawnPoint = vector4(1430.42, -1511.46, 61.63, 267.49),
+        putVehicle = vector3(1421.84, -1505.74, 60.93),
+        showBlip = false,
+        blipName = "18th Street Gang",
+        blipNumber = 357,
+        type = 'gang',                --public, job, gang, depot
+        vehicle = 'car',              --car, air, sea
+        job = "triads"
+    },
     ["families"] = {
         label = "La Familia",
         takeVehicle = vector3(-811.65, 187.49, 72.48),
